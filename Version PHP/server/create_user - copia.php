@@ -3,10 +3,10 @@
   	require_once('conector.php');
 
   	$datos = array(
-      'nombre' => 'Diego Quiroz Perez',
-      'email' => 'dquiroz1988@gmail.com',
-      'clave' => password_hash("123456", PASSWORD_DEFAULT),
-      'nacimiento' => '1988-06-06');
+      'nombre' => 'Yessica Rebolledo Jerez',
+      'email' => 'ymrebolledog@gmail.com',
+      'clave' => password_hash("mar2018", PASSWORD_DEFAULT),
+      'nacimiento' => '1988-12-07');
 
     $con = new ConectorBD('localhost','root','');
   	$respuesta = $con->iniciarConexion('nextu_diego');
